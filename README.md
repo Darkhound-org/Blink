@@ -1,2 +1,2 @@
-# Blink
+# Linsh
  link shortner
