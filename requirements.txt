@@ -1,5 +1,6 @@
 anyio==3.6.1
 bitly-api-py3==0.3
+pyperclip==1.8.2
 certifi==2022.6.15
 charset-normalizer==2.1.0
 click==8.1.3
