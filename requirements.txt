@@ -1,5 +1,4 @@
 anyio==3.6.1
-pyperclip==1.8.2
 bitly-api-py3==0.3
 pyperclip==1.8.2
 certifi==2022.6.15
