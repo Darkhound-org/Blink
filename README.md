@@ -25,8 +25,6 @@ Fed up of long links 😩  ??? Use ✨ Linsh ✨, a CLI tool to shorten links ri
 Download the latest build for windows from releases.
 
 * Pypi
-* 
-Pypi : https://pypi.org/project/Linsh/
 
 Requirement:
 [Python](https://www.python.org/)🐍 
