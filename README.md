@@ -1,8 +1,8 @@
 ## Linsh 🔗
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![PyPI version](https://img.shields.io/pypi/v/linsh.svg)]()
-[![PyPI version](https://img.shields.io/pypi/v/linsh.svg)]()
+[![PyPI version](https://img.shields.io/pypi/v/linsh.svg)](https://pypi.org/project/Linsh/)
+[![PyPI version](https://img.shields.io/pypi/v/linsh.svg)](https://pypi.org/project/Linsh/)
 
 
 Fed up of long links 😩  ??? Use ✨ Linsh ✨, a CLI tool to shorten links right from your terminal.
