@@ -1,0 +1,5 @@
+✨ Linsh ✨ CLI tool to shorten links right from your terminal
+-----------------------------------------------
+Linsh v20220820
+>Initial Release
+
