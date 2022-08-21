@@ -20,10 +20,6 @@ Fed up of long links 😩  ??? Use ✨ Linsh ✨, a CLI tool to shorten links ri
 
 #### Installation
 
-* Build 
-
-Download the latest build for windows from releases.
-
 * Cloning
 
 Requirement:
@@ -35,9 +31,9 @@ Run the app `python linsh.py`[or `python __main__.py`] and start shortening your
 
 
 #### Usage
-Run `linsh.exe --help` from command line
+Run `linsh.py --help` from command line
 ```
-Usage: linsh.exe [OPTIONS] COMMAND [ARGS]...
+Usage: linsh.py [OPTIONS] COMMAND [ARGS]...
 
 Options:
   -li, --license
@@ -68,7 +64,7 @@ Commands:
 
 `--help` : Displays available commands and flags
 
-[Note: `<command> --help` will display the flags for the respective commands, eg: `linsh.exe bitly --help` ]
+[Note: `<command> --help` will display the flags for the respective commands, eg: `linsh.py bitly --help` ]
 
 * Commands 
 
@@ -84,7 +80,7 @@ Commands:
 * Example usage : 
 ```
 
-linsh.exe tiny-url -u http://test.com/ -o 
+linsh.py tiny-url -u http://test.com/ -o 
 
 Shortened URL: https://tinyurl.com/test1234
  Link copied to clip board..!!
