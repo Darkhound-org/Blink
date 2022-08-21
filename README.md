@@ -30,7 +30,8 @@ Requirement:
 [Python](https://www.python.org/)🐍 
 
 Fire up your terminal and run `pip install linsh`
-Make sure its properly installed by running `python Linsh -a` or `python Linsh --help`
+Go to `\venv\Lib\site-packages\Linsh_Darkhound-org` and rename `__main__.py` as `Linsh.py`.
+Make sure its properly installed by running `python Linsh.py -a` or `python Linsh.py --help`
 
 * Cloning
 
