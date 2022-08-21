@@ -24,15 +24,6 @@ Fed up of long links 😩  ??? Use ✨ Linsh ✨, a CLI tool to shorten links ri
 
 Download the latest build for windows from releases.
 
-* Pypi
-
-Requirement:
-[Python](https://www.python.org/)🐍 
-
-Fire up your terminal and run `pip install Linsh`.
-Go to `\venv\Lib\site-packages\Linsh_Darkhound-org` and rename `__main__.py` as `linsh.py`.
-Make sure its properly installed by running `python linsh.py -a` or `python linsh.py --help`
-
 * Cloning
 
 Requirement:
