@@ -216,8 +216,8 @@ License-File: LICENSE
 ## Linsh 🔗
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![PyPI version](https://img.shields.io/pypi/v/linsh.svg)]()
-[![PyPI version](https://img.shields.io/pypi/v/linsh.svg)]()
+
+
 
 
 Fed up of long links 😩  ??? Use ✨ Linsh ✨, a CLI tool to shorten links right from your terminal.
@@ -238,14 +238,6 @@ Fed up of long links 😩  ??? Use ✨ Linsh ✨, a CLI tool to shorten links ri
 * Build 
 
 Download the latest build for windows from releases.
-
-* Pypi
-
-Requirement:
-[Python](https://www.python.org/)🐍 
-
-Fire up your terminal and run `pip install linsh`
-Make sure its properly installed by running `python Linsh -a` or `python Linsh --help`
 
 * Cloning
 
