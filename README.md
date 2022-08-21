@@ -29,9 +29,9 @@ Download the latest build for windows from releases.
 Requirement:
 [Python](https://www.python.org/)🐍 
 
-Fire up your terminal and run `pip install linsh`
-Go to `\venv\Lib\site-packages\Linsh_Darkhound-org` and rename `__main__.py` as `Linsh.py`.
-Make sure its properly installed by running `python Linsh.py -a` or `python Linsh.py --help`
+Fire up your terminal and run `pip install Linsh`.
+Go to `\venv\Lib\site-packages\Linsh_Darkhound-org` and rename `__main__.py` as `linsh.py`.
+Make sure its properly installed by running `python linsh.py -a` or `python linsh.py --help`
 
 * Cloning
 
