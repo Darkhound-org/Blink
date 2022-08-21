@@ -29,7 +29,7 @@ Download the latest build for windows from releases.
 Requirement:
 [Python](https://www.python.org/)🐍
 
-Clone the repo or download source as zip from releases and unzip in a new folder. Make a new virtual environment in it, activate and install the requirement by running `pip install -r requirements.txt` . 
+Clone the repo or download source as zip and unzip in a new folder. Make a new virtual environment in it, activate and install the requirement by running `pip install -r requirements.txt` . 
 
 Run the app `python linsh.py`[or `python __main__.py`] and start shortening your long urls.
 
