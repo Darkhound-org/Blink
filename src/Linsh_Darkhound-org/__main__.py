@@ -65,7 +65,7 @@ SPDX-License-Identifier: Apache-2.0
 
         Darkhound-org develops applications [games too..] programmed in different languages [python,golang,lua..etc]
 
-        Website: https://lantgz7548043.wixsite.com/darkhound-org
+        Website: https://darkhound-org.github.io/
         Github: https://github.com/darkhound-org
 
         ''')    
