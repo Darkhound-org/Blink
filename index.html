@@ -1,0 +1,82 @@
+<h2 id="linsh-">Linsh 🔗</h2>
+<p><a href="https://www.python.org/"><img src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg" alt="made-with-python"></a>
+<a href="https://opensource.org/licenses/Apache-2.0"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="License"></a></p>
+<p>Fed up of long links 😩  ??? Use ✨ Linsh ✨, a CLI tool to shorten links right from your terminal.</p>
+<h4 id="extra-features">Extra Features</h4>
+<ul>
+<li>Copies link to clipboard</li>
+<li>Opens link in your browser</li>
+</ul>
+<h4 id="-index-"><strong>Index</strong></h4>
+<ul>
+<li><a href="">Installation</a></li>
+<li><a href="">Usage</a></li>
+<li><a href="">Config file</a></li>
+<li><a href="">Supported API&#39;s</a></li>
+<li><a href="">License</a></li>
+</ul>
+<h4 id="installation">Installation</h4>
+<ul>
+<li>Cloning</li>
+</ul>
+<p>Requirement:
+<a href="https://www.python.org/">Python</a>🐍</p>
+<p>Clone the repo or download source as zip and unzip in a new folder. Make a new virtual environment in it, activate and install the requirement by running <code>pip install -r requirements.txt</code> . </p>
+<p>Run the app <code>python linsh.py</code>[or <code>python __main__.py</code>] and start shortening your long urls.</p>
+<h4 id="usage">Usage</h4>
+<p>Run <code>linsh.py --help</code> from command line</p>
+<pre><code><span class="hljs-attribute">Usage</span>: linsh.py [OPTIONS] COMMAND [ARGS]...
+
+<span class="awk">Options:
+  -li, --license
+  -a, --about
+  -ro, --github_repo
+  -?, --darkhound_org
+  --version            Show the version and <span class="hljs-keyword">exit</span>.
+  --help               Show this message and <span class="hljs-keyword">exit</span>.
+
+Commands:
+  bitly
+  chilp
+  cuttly
+  tiny-url</span>
+</code></pre><ul>
+<li>Flags</li>
+</ul>
+<p><code>-li</code> / <code>--license</code> : Displays a brief license information of Linsh.</p>
+<p><code>-a</code> / <code>--about</code> : Displays a brief information of what Linsh does.</p>
+<p><code>-ro</code> / <code>--github_repo</code> : Opens the github repository link in your default browser.</p>
+<p><code>-?</code> / <code>--darkhound_org</code> : Displays a brief information about the developer.</p>
+<p><code>--version</code> : Displays the version</p>
+<p><code>--help</code> : Displays available commands and flags</p>
+<p>[Note: <code>&lt;command&gt; --help</code> will display the flags for the respective commands, eg: <code>linsh.py bitly --help</code> ]</p>
+<ul>
+<li>Commands </li>
+</ul>
+<p><code>bitly</code> : Shorten your urls using <a href="">bitly</a> api</p>
+<p><code>chilp</code> : Shorten your urls using <a href="">chilp</a> api</p>
+<p><code>cuttly</code> : Shorten your urls using <a href="">cuttly</a> api </p>
+<p><code>tiny-url</code> : Shorten your urls using <a href="">tiny-url</a> api</p>
+<ul>
+<li>Example usage : 
+```</li>
+</ul>
+<p>linsh.py tiny-url -u <a href="http://test.com/">http://test.com/</a> -o </p>
+<p>Shortened URL: <a href="https://tinyurl.com/test1234">https://tinyurl.com/test1234</a>
+ Link copied to clip board..!!</p>
+<pre><code>
+[<span class="hljs-literal">Note</span>: `-o / <span class="hljs-comment">--open` will open the link in your browser. ]</span>
+
+#### Config <span class="hljs-keyword">file</span>
+<span class="hljs-keyword">For</span> shortening links <span class="hljs-keyword">to</span> bitly <span class="hljs-keyword">and</span> cuttly an api key [<span class="hljs-keyword">or</span> an <span class="hljs-keyword">access</span> token] <span class="hljs-keyword">is</span> necessary. Api keys should be pasted as such <span class="hljs-keyword">in</span> the config.cfg <span class="hljs-keyword">file</span>. An example <span class="hljs-keyword">is</span> shown below
+</code></pre><p>[Bitly]
+api-key = &#39;20b200gf394849gg55aaea555fsfs&#39;</p>
+<p>[Cuttly]
+api-key = &#39;112sfsf555aeaa55gg948493fg00d&#39;
+```
+Get bitly api key from : <a href="https://dev.bitly.com/">https://dev.bitly.com/</a></p>
+<p>Get cuttly api key from : <a href="https://cutt.ly/cuttly-api">https://cutt.ly/cuttly-api</a></p>
+<h4 id="supported-api-s">Supported API&#39;s</h4>
+<p>Linsh currently supports tiny-url, bitly, cuttly and chilp only . More api&#39;s will be added in upcoming relases.</p>
+<h4 id="license">License</h4>
+<p>Linsh is licensed under the <a href="">Apache License 2.0</a></p>
